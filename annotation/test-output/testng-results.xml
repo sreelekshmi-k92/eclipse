@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6063" started-at="2023-05-22T09:28:07 IST" finished-at="2023-05-22T09:28:13 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6063" started-at="2023-05-22T09:28:07 IST" finished-at="2023-05-22T09:28:13 IST">
+      <class name="annotation.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:annotation.NewTest@8e24743]" name="beforeTest" is-config="true" duration-ms="3659" started-at="2023-05-22T09:28:07 IST" finished-at="2023-05-22T09:28:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:annotation.NewTest@8e24743]" name="f" duration-ms="2197" started-at="2023-05-22T09:28:10 IST" finished-at="2023-05-22T09:28:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:annotation.NewTest@8e24743]" name="afterTest" is-config="true" duration-ms="148" started-at="2023-05-22T09:28:12 IST" finished-at="2023-05-22T09:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- annotation.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

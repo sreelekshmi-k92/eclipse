@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Automation\JDK" version="1.8.0_361">
+<bootpath>
+<entry path="C:\Automation\JDK\lib\resources.jar"/>
+<entry path="C:\Automation\JDK\lib\rt.jar"/>
+<entry path="C:\Automation\JDK\lib\jsse.jar"/>
+<entry path="C:\Automation\JDK\lib\jce.jar"/>
+<entry path="C:\Automation\JDK\lib\charsets.jar"/>
+<entry path="C:\Automation\JDK\lib\jfr.jar"/>
+<entry path="C:\Automation\JDK\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Automation\JDK\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Automation\JDK\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

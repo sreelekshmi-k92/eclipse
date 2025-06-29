@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9019" started-at="2023-05-19T09:58:10 IST" finished-at="2023-05-19T09:58:19 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9019" started-at="2023-05-19T09:58:10 IST" finished-at="2023-05-19T09:58:19 IST">
+      <class name="testng.NewTest">
+        <test-method status="PASS" signature="f1()[pri:0, instance:testng.NewTest@262b2c86]" name="f1" duration-ms="2745" started-at="2023-05-19T09:58:10 IST" finished-at="2023-05-19T09:58:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="f()[pri:1, instance:testng.NewTest@262b2c86]" name="f" duration-ms="3338" started-at="2023-05-19T09:58:13 IST" finished-at="2023-05-19T09:58:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f2()[pri:2, instance:testng.NewTest@262b2c86]" name="f2" duration-ms="2893" started-at="2023-05-19T09:58:17 IST" finished-at="2023-05-19T09:58:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+      </class> <!-- testng.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

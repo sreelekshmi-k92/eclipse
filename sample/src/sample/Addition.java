@@ -1,0 +1,20 @@
+package sample;
+
+public class Addition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a=13,b=8,sum;
+sum=a+b;
+System.out.println("the sum ="+sum);
+
+long f = 3141L;
+System.out.println(f);
+boolean res= a>b;
+if (res || a<b)
+{
+	System.out.println(a + "is greater than" + b);
+}
+	}
+
+}

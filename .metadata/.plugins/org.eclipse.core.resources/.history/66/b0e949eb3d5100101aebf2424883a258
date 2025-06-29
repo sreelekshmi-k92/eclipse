@@ -1,0 +1,33 @@
+package Locatordemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Locator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Automation\\selenium\\chromedriver-win64\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.amazon.in/");
+		driver.manage().window().maximize();
+		//name
+		driver.findElement(By.name("field-keywords")).sendKeys("Laptop");
+		//id
+		driver.findElement(By.id("nav-search-submit-button")).click();
+	
+		boolean check= 	driver.findElement(By.id("nav-logo-sprites")).isDisplayed();
+		if(check)
+		{
+			System.out.println("Logo displayed");
+		}
+		else
+		{
+			System.out.println("Logo not displayed");
+		}
+		
+		}
+			
+
+}

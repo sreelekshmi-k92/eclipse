@@ -1,0 +1,14 @@
+package NewPjct25_06;
+
+import org.openqa.selenium.WebDriver;
+
+public class Firstexample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://demo.opencart.com/");
+	}
+
+}

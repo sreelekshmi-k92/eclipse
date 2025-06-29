@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8625" started-at="2023-05-22T10:04:51 IST" finished-at="2023-05-22T10:05:00 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8625" started-at="2023-05-22T10:04:51 IST" finished-at="2023-05-22T10:05:00 IST">
+      <class name="dataproviderpara.NewTest">
+        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:dataproviderpara.NewTest@4d1b0d2a]" name="f" duration-ms="3486" started-at="2023-05-22T10:04:52 IST" data-provider="facebooklogin" finished-at="2023-05-22T10:04:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[diya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jesi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:dataproviderpara.NewTest@4d1b0d2a]" name="f" duration-ms="1865" started-at="2023-05-22T10:04:56 IST" data-provider="facebooklogin" finished-at="2023-05-22T10:04:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sebin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pious]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:dataproviderpara.NewTest@4d1b0d2a]" name="f" duration-ms="2500" started-at="2023-05-22T10:04:57 IST" data-provider="facebooklogin" finished-at="2023-05-22T10:05:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[athulya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rohini]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- dataproviderpara.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
